@@ -1,0 +1,37 @@
+h1,h2{
+    text-align: center;
+    color: blue;
+    font-size: 130%;
+}
+
+a:visited {
+    color: green;
+  }
+  
+  
+  a:hover {
+    color: rgb(29, 23, 114);
+  }
+  
+  
+  a:active {
+    color: rgb(161, 49, 77);
+  }
+
+  form{
+      font-size: 150%;
+      font-style: oblique;
+      color: black;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-color: black;
+  }
+  td, th,tr {
+    border: 1px solid #1d1c1c;
+    text-align: left;
+    padding: 10px;
+    border-style: groove;
+  }
