@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prog1a</title>
+</head>
+<body>
+    <script>
+     
+     function unique(text)
+{
+ var str=text;
+ var uniql="";
+ for (var i=0;i < str.length;i++)
+ {
+
+ if(uniql.indexOf(str.charAt(i))==-1)
+  {
+  uniql += str[i];  
+  
+   }
+  }
+  return uniql;  
+} 
+var text=prompt("enter the string");
+document.write(unique(text));
+
+    </script>
+</body>
+</html>
+
