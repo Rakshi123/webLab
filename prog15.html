@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+         check_palindrome=( str )=>
+        {
+          let j = str.length -1;
+          for( let i = 0 ; i < j/2 ;i++)
+          {
+            let x = str[i] ;
+            let y = str[j-i];
+            if( x != y)
+            {
+               return false;
+            }
+          }         
+          return true;           
+        }
+    
+        is_palindrome=( str )=>{
+         let res= check_palindrome(str);
+          if( res == true )
+          {
+            console.log("passed string is palindrome ");
+          }
+          else
+          {
+            console.log("passed string not a palindrome");
+          }
+        }
+       var str=prompt("enter the string");
+       is_palindrome(str);
+      </script>
+</body>
+</html>
